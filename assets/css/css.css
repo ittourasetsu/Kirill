@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;    
+}
+
+ol > li{
+    padding-left: 20px;
+    position: relative;
+    margin: 10px;
+}
+ol > li:before{
+    content: '✔';
+    position: absolute; top: 0; left: 0;
+    color: yellow;
+}
+header{
+    background-color: rgb(80, 71, 126);
+}
+body{
+    background-color: rgb(255, 255, 255)
+}
+.colonn{
+    display: flex;
+    flex-direction: row;
+}
+.colonn2{
+    display: flex;
+    flex-direction: row;
+}
+.podpis{
+    display: flex;
+    margin: auto;
+}
+.a5{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(80, 71, 126);
+    margin-left: 270px;
+}
+.a2{
+    background-color: rgb(255, 255, 255);
+    font-size:30px;
+    border-style: groove;
+}
+.a4{
+    background-color: rgb(255, 255, 255);
+    border-style: groove;
+    width: 70%;
+    margin-left: 55px;
+}
+.a12{
+    display: flex;
+    flex-direction: row;
+}
+.a6{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(80, 71, 126);
+    margin-left: 100px;
+}
+.a8{
+    background-color: rgb(255, 255, 255);
+    font-size:30px;
+    border-style: groove;
+}
+.a10{
+    background-color: rgb(255, 255, 255);
+    border-style: groove;
+    width: 70%;
+    margin-left: 55px;
+}
+.a13{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(80, 71, 126);
+    margin-left: 100px;
+}
+.a15{
+    background-color: rgb(255, 255, 255);
+    font-size:30px;
+    border-style: groove;
+}
+.a17{
+    background-color: rgb(255, 255, 255);
+    border-style: groove;
+    width: 70%;
+    text-align: center;
+    margin-left: 55px;
+}
+.coob{
+    margin-right: 200px;
+}
